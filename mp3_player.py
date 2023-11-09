@@ -7,7 +7,7 @@ print("")
 print("")
 
 # Dictionaries der Alben
-path = pathlib.Path.cwd().joinpath("mp3 Player")
+path = pathlib.Path(r"C:\Users\dkomm\Desktop\Weiterbildung\Projekte\mp3_player--practice\mp3 Player")
 collection_path = tuple(item for item in path.iterdir())
 collection_names = tuple(item.name for item in path.iterdir())
 collection_number = tuple(range(len(collection_names)))
