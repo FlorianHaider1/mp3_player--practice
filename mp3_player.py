@@ -1,3 +1,14 @@
+# Practice mp3 Player
+# This is to practice accessing folders and files on the local computer.
+# To add:
+# Play and Pause - requires Threading
+# Generating and altering playlists
+# Adjusting Volume
+# Graphical Interface
+# Adding an easy option to select starting folder and browse further
+# Compiling the player in a file
+
+
 import pathlib
 import pygame
 import eyed3
